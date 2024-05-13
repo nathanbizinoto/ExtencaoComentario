@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "POS Migration ",
+    "version": "1.0",
+    "description": "Generate migration text for POS based on serial number and CNPJ changes.",
+    "permissions": [],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
