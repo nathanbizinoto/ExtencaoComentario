@@ -1,78 +1,78 @@
 /* style.css */
 
 body {
-    font-family: Arial, sans-serif; /* Define uma fonte mais legível */
-    background-color: #f4f4f4; /* Cor de fundo suave */
-    padding: 20px; /* Espaçamento interno para a página */
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    padding: 20px; 
 }
 
 h1 {
-    color: #333; /* Cor escura para o título */
-    text-align: center; /* Centraliza o título */
+    color: #333; 
+    text-align: center; 
 }
 
 form {
-    background-color: #fff; /* Fundo branco para o formulário */
-    border: 1px solid #ddd; /* Borda sutil */
-    padding: 20px; /* Espaçamento interno para os elementos do formulário */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra discreta */
-    max-width: 400px; /* Largura máxima do formulário */
-    margin: 30px auto; /* Centraliza o formulário horizontalmente */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 30px auto;
 }
 
 input[type="text"] {
-    width: calc(100% - 22px); /* Largura total ajustada para padding */
-    padding: 10px; /* Espaçamento interno para a entrada de texto */
-    margin-bottom: 10px; /* Espaço entre os campos de texto */
-    border: 1px solid #ccc; /* Borda sutil */
-    border-radius: 4px; /* Bordas arredondadas */
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 button {
-    width: 100%; /* Botão de largura total */
-    padding: 10px; /* Espaçamento interno maior para o botão */
-    background-color: #109b48; /* Cor de fundo azul */
-    color: white; /* Texto branco */
-    border: none; /* Sem bordas */
-    border-radius: 4px; /* Bordas arredondadas */
-    cursor: pointer; /* Cursor do mouse como ponteiro */
-    transition: background-color 0.3s; /* Transição suave para o hover */
+    width: 100%;
+    padding: 10px;
+    background-color: #109b48;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #1f5e38; /* Cor mais escura no hover */
+    background-color: #1f5e38;
 }
 
 #result {
-    margin-top: 20px; /* Espaço acima do resultado */
-    padding: 15px; /* Espaçamento interno */
-    background-color: #e9ecef; /* Fundo cinza claro */
-    border-radius: 4px; /* Bordas arredondadas */
-    word-wrap: break-word; /* Quebra de texto para evitar overflow */
-}
-/* Estilo do modal */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    word-wrap: break-word;
 }
 
-/* Modal Content */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
 }
+
 
 /* The Close Button */
 .close {

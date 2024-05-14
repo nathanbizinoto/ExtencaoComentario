@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "POS Migration ",
     "version": "1.0",
-    "description": "Generate migration text for POS based on serial number and CNPJ changes.",
+    "description": "Generate migration CRM comments for POS based on serial number and CNPJ.",
     "permissions": [],
     "action": {
       "default_popup": "popup.html"

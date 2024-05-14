@@ -16,11 +16,11 @@ document.getElementById('generate').addEventListener('click', function() {
 });
 
 function formatCNPJ(cnpj) {
-    return cnpj.replace(/[\D]/g, ''); // Remove todos os caracteres não numéricos
+    return cnpj.replace(/[\D]/g, '');
 }
 
 function validateCNPJ(cnpj) {
-    return cnpj.length === 14; // Verifica se tem exatamente 14 dígitos
+    return cnpj.length === 14; 
 }
 
 function showModal(text, allowCopy) {
